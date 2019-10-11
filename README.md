@@ -18,7 +18,8 @@ Interactive Frontend Development - From JavaScript to jQuery
 
 #### Challenge
 
-Complete the table according to the exampe below
+Complete the table according to the exampe below/
+
 ![Example Table](img/modelTable.png)
 
 1.  Added content to the table.html according to the example
