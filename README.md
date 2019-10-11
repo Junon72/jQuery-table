@@ -30,7 +30,7 @@ Complete the table according to the example below
 
 4.  Tested the colors in browser dev tools
 
-5.  Addded new classes in inline <style> for odd and even rows on the table
+5.  Added new classes in inline <style> for odd and even rows on the table
 
 6.  Added the classes to the js file
 
