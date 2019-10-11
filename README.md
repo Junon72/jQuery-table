@@ -10,7 +10,7 @@ Interactive Frontend Development - From JavaScript to jQuery
     -   Downloaded and added the jQuery library to the project jQueryTable
     -   Referenced the library in table.html header
 
-2.  Manipulated <h2> and <ul> elements
+2.  Manipulated h2 and ul elements
 
 3.  Added new classes to inline css, to avoid permanent changes to the elements
 
