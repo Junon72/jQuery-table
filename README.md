@@ -45,5 +45,7 @@ Complete the table according to the example below
 
 ### Challenge - 2 
 
+1.  Highlighted the row, when the row header is clicked using parent() and siblings() methods
+
 
 

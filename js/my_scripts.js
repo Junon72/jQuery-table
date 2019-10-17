@@ -17,7 +17,40 @@ $(document).ready(function()    {
         });
     
     // Additional own things
-    
+    $('#colTitle1').click(function() {
+        $('td').removeClass('highlight');
+        $('.colOne').addClass('highlight');
+        
+    });
+
+    $('#colTitle2').click(function() {
+        $('td').removeClass('highlight');
+        $('.colTwo').addClass('highlight');
+        
+    });
+
+    $('#colTitle3').click(function() {
+        $('td').removeClass('highlight');
+        $('.colThree').addClass('highlight');
+        
+    });
+
+    $('#colTitle4').click(function() {
+        $('td').removeClass('highlight');
+        $('.colFour').addClass('highlight');
+        
+    });
+
+    $('#colTitle5').click(function() {
+        $('td').removeClass('highlight');
+        $('.colFive').addClass('highlight');
+        
+    });
+
+    $('#reset').click(function() {
+        $('td').removeClass('highlight');
+    });
+
 });
 
 
