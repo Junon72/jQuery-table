@@ -35,7 +35,15 @@ Complete the table according to the example below
 6.  Added the classes to the js file
 
 
+## jQuery Traversing Mt. DOM - Other traversing methods
 
+### Items I covered on this course:
+
+1. Using effects and events with traversing methods to address HTML elements styling 
+
+### Challenge - 1 can be found in [jQueryButtons](https://github.com/Junon72/jQuery-buttons)
+
+### Challenge - 2 
 
 
 

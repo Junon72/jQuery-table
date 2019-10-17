@@ -39,60 +39,72 @@
 
         /* Challenge solution - Added classes for odd and even rows on the table*/
         .oddRow {
-            background-color: #fd9a81;
+            background-color: #f7c0b2;
         }
 
         .evenRow {
             background-color: #fee2db;
         }
+        /* Traversing the DOM Tree - Challenge - 2 */
 
+        #reset {
+            color: white;
+        }
+
+        .notFocused {
+            color: white
+        }
+
+        .highlight {
+            background-color: coral;
+        }
     </style>
 </head>
 
 <body>
     <table>
-        <tr>
-            <th></th>
-            <th>Country</th>
-            <th>Price</th>
-            <th>Nutrition</th>
-            <th>Category</th>
+        <tr class="col">
+            <th id="reset">Reset</th>
+            <th class="colTitle">Country</th>
+            <th class="colTitle">Price</th>
+            <th class="colTitle">Nutrition</th>
+            <th class="colTitle">Category</th>
         </tr>
-        <tr>
-            <th>Spinach</th>
-            <td>America</td>
-            <td>28</td>
-            <td>90</td>
-            <td>Veg</td>
+        <tr class="rows">
+            <th class="rowTitle">Spinach</th>
+            <td class="row colOne">America</td>
+            <td class="row colTwo">28</td>
+            <td class="row colThree">90</td>
+            <td class="row colFour">Veg</td>
         </tr>
-        <tr>
-            <th>Carrots</th>
-            <td>France</td>
-            <td>56</td>
-            <td>75</td>
-            <td>Veg</td>
+        <tr class="rows">
+            <th class="rowTitle">Carrots</th>
+            <td class="row colOne">France</td>
+            <td class="row colTwo">56</td>
+            <td class="row colThree">75</td>
+            <td class="row colFour">Veg</td>
         </tr>
 <!-- Challenge solution - Completed the table according to the model -->
-        <tr>
-            <th>Broccoli</th>
-            <td>Bulgaria</td>
-            <td>12</td>
-            <td>70</td>
-            <td>Veg</td>
+        <tr class="rows">
+            <th class="rowTitle">Broccoli</th>
+            <td class="row colOne">Bulgaria</td>
+            <td class="row colTwo">12</td>
+            <td class="row colThree">70</td>
+            <td class="row colFour">Veg</td>
         </tr>
-        <tr>
-            <th>Orange</th>
-            <td>Morocco</td>
-            <td>15</td>
-            <td>50</td>
-            <td>Fruit</td>
+        <tr class="rows">
+            <th class="rowTitle">Orange</th>
+            <td class="row colOne">Morocco</td>
+            <td class="row colTwo">15</td>
+            <td class="row colThree">50</td>
+            <td class="row colFour">Fruit</td>
         </tr>
-        <tr>
-            <th>Tangerine</th>
-            <td>Cyprus</td>
-            <td>12</td>
-            <td>25</td>
-            <td>Fruit</td>
+        <tr class="rows">
+            <th class="rowTitle">Tangerine</th>
+            <td class="row colOne">Cyprus</td>
+            <td class="row colTwo">12</td>
+            <td class="row colThree">25</td>
+            <td class="row colFour">Fruit</td>
         </tr>
     </table>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
